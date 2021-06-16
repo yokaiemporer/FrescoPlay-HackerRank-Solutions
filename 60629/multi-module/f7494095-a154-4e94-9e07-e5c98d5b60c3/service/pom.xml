@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fresco.play</groupId>
+  <parent>
+        <groupId>com.fresco.play</groupId>
+        <artifactId>maven-multi-modules</artifactId>
+        <version>1.0</version>
+    </parent>
+  <artifactId>service</artifactId>
+  <version>1.0</version>
+  <name>service</name>
+  <packaging>jar</packaging>
+  <!-- Insert you configurations here -->
+  <dependencies>
+  <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+  </dependencies>
+  <build>
+    	<!-- Configure Plugin Management here -->
+       <pluginManagement>
+      <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+      </plugin>
+    </plugins>
+    </pluginManagement>
+    </build>
+
+
+</project>

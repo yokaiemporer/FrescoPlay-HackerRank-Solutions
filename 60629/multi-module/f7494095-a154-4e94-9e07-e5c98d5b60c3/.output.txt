@@ -1,0 +1,115 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] maven-multi-modules
+[INFO] service
+[INFO] util
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building maven-multi-modules 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-multi-modules ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ maven-multi-modules ---
+[INFO] Installing /projects/challenge/pom.xml to /home/user/.m2/repository/com/fresco/play/maven-multi-modules/1.0/maven-multi-modules-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building service 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ service ---
+[INFO] Deleting /projects/challenge/service/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /projects/challenge/service/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /projects/challenge/service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /projects/challenge/service/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /projects/challenge/service/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ service ---
+[INFO] Surefire report directory: /projects/challenge/service/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fresco.play.ServiceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ service ---
+[INFO] Building jar: /projects/challenge/service/target/service-1.0.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ service ---
+[INFO] Installing /projects/challenge/service/target/service-1.0.jar to /home/user/.m2/repository/com/fresco/play/service/1.0/service-1.0.jar
+[INFO] Installing /projects/challenge/service/pom.xml to /home/user/.m2/repository/com/fresco/play/service/1.0/service-1.0.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building util 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ util ---
+[INFO] Deleting /projects/challenge/util/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /projects/challenge/util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /projects/challenge/util/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /projects/challenge/util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /projects/challenge/util/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ util ---
+[INFO] Surefire report directory: /projects/challenge/util/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ util ---
+[INFO] Building jar: /projects/challenge/util/target/util-1.0.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ util ---
+[INFO] Installing /projects/challenge/util/target/util-1.0.jar to /home/user/.m2/repository/com/fresco/play/util/1.0/util-1.0.jar
+[INFO] Installing /projects/challenge/util/pom.xml to /home/user/.m2/repository/com/fresco/play/util/1.0/util-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] maven-multi-modules ................................ SUCCESS [  0.543 s]
+[INFO] service ............................................ SUCCESS [  3.304 s]
+[INFO] util ............................................... SUCCESS [  0.482 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.486 s
+[INFO] Finished at: 2020-12-17T20:00:16+00:00
+[INFO] Final Memory: 19M/252M
+[INFO] ------------------------------------------------------------------------

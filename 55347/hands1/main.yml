@@ -1,0 +1,10 @@
+
+---
+- name: stop ssh
+  service:
+    name: ssh
+    state: stopped
+- name: start ssh
+  service:
+    name: ssh
+    state: started

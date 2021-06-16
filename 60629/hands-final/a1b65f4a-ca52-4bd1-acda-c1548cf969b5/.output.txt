@@ -1,0 +1,57 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building maven-anagram-finder 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ maven-anagram-finder ---
+[INFO] Deleting /projects/challenge/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maven-anagram-finder ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /projects/challenge/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ maven-anagram-finder ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /projects/challenge/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maven-anagram-finder ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /projects/challenge/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ maven-anagram-finder ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /projects/challenge/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maven-anagram-finder ---
+[INFO] Surefire report directory: /projects/challenge/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fresco.play.AnagramTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ maven-anagram-finder ---
+[INFO] Building jar: /projects/challenge/target/maven-anagram-finder.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.4.3:shade (default) @ maven-anagram-finder ---
+[INFO] Including junit:junit:jar:4.13.1 in the shaded jar.
+[INFO] Including org.hamcrest:hamcrest-core:jar:1.3 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /projects/challenge/target/maven-anagram-finder.jar with /projects/challenge/target/maven-anagram-finder-0.0.1-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /projects/challenge/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.289 s
+[INFO] Finished at: 2020-12-26T17:19:09+00:00
+[INFO] Final Memory: 21M/249M
+[INFO] ------------------------------------------------------------------------
