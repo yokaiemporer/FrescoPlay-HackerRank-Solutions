@@ -1,0 +1,9 @@
+[submodule "55346/handson3/handson3"]
+	path = 55346/handson3/handson3
+	url = ./
+[submodule "55346/handson4/handson4"]
+	path = 55346/handson4/handson4
+	url = ./
+[submodule "55346/handson2/handson2"]
+	path = 55346/handson2/handson2
+	url = ./
